@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PvZRp-Repacker": {
+      "commandName": "Project",
+      "commandLineArgs": "-spine"
+    }
+  }
+}
