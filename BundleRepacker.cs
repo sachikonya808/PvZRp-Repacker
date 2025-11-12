@@ -44,7 +44,7 @@ namespace PvZRp_Repacker
                 {
                     string name = bun.BlockAndDirInfo.DirectoryInfos[i].Name;
 
-                    if (matchName == name && Path.GetExtension(matchName) != ".resS")
+                    if (matchName == name && Path.GetExtension(matchName) != ".resS" && Path.GetExtension(matchName) != ".resource")
                     {
                         Console.WriteLine($"\t*** Block [{i}]: Match! ***");
                         Console.WriteLine($"Loading {file}...");
